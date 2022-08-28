@@ -16,7 +16,6 @@ from functions import *
 from decentralized_problem import Problem
 from decentralized_solvers import Solver
 
-
 print('\nRunning code for comparison between SU-CD and SGS-CD in two different graphs\n')
 
 # create graphs

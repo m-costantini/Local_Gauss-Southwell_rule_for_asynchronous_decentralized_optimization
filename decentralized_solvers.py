@@ -1,5 +1,5 @@
 """
-Implement set-wise coordinate descent solver in their two variations: uniform and Gauss Southwell
+Implement set-wise coordinate descent solvers (uniform and Gauss Southwell) for the decentralized problem
 """
 
 import numpy as np
@@ -32,6 +32,9 @@ class Solver():
         self.dual = np.zeros((self.steps,))
 
 
+
+    # ----------------------------------------------------------------------------------
+    # Functions
 
     def choose_neighbor(self, i):
         if self.solver_name == 'SU-CD':
